@@ -1,8 +1,8 @@
 //
-//  RunLoopViewController.h
+//  JavaScriptCoreViewController.h
 //  Objective_C_Demo
 //
-//  Created by foolmcode on 2019/3/27.
+//  Created by foolmcode on 2019/4/2.
 //  Copyright © 2019 foolmcode. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface RunLoopViewController : BaseViewController
+@interface JavaScriptCoreViewController : BaseViewController
 
 @end
 

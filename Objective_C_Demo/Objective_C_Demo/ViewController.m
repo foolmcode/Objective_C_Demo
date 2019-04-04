@@ -7,10 +7,8 @@
 //
 
 #import "ViewController.h"
-//#import "NSCopyingObject.h"
-#import"RunLoopViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
-//@property(weak,nonatomic)NSString * name;
+@property(copy,nonatomic)NSArray * titleArr;
 @end
 
 @implementation ViewController
@@ -23,7 +21,7 @@ __weak id objTrace;
     [self.view addSubview:table];
     [table registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
     
-    
+    _titleArr = @[@"RunLoopViewController",@"CopyViewController",@"CoreTextViewController",@"JavaScriptCoreViewController"];
 }
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -36,18 +34,20 @@ __weak id objTrace;
     if (cell == nil) {
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identify];
     }
-    cell.textLabel.text = @"runloop";
+    cell.textLabel.text = _titleArr[indexPath.row];
     cell.textLabel.textColor = UIColor.redColor;
     return cell;
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    RunLoopViewController * vc = [[RunLoopViewController alloc]init];
+    Class class = NSClassFromString(_titleArr[indexPath.row]);
+    
+    id  vc = [[class alloc]init];
     [self.navigationController pushViewController:vc animated:YES];
 }
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     return 1;
 }
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 1;
+    return _titleArr.count;
 }
 @end

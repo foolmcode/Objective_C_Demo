@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		222F410D2252FFF300B38253 /* JavaScriptCoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 222F410C2252FFF300B38253 /* JavaScriptCoreViewController.m */; };
+		222F410F225303FF00B38253 /* html.html in Resources */ = {isa = PBXBuildFile; fileRef = 222F410E225303FF00B38253 /* html.html */; };
+		222F41122253057300B38253 /* MyJSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 222F41112253057300B38253 /* MyJSObject.m */; };
 		225280232248640000750FB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 225280222248640000750FB1 /* AppDelegate.m */; };
 		225280262248640000750FB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 225280252248640000750FB1 /* ViewController.m */; };
 		225280292248640000750FB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 225280272248640000750FB1 /* Main.storyboard */; };
@@ -15,9 +18,19 @@
 		225280312248640200750FB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 225280302248640200750FB1 /* main.m */; };
 		2252803A224864E800750FB1 /* NSCopyingObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 22528039224864E700750FB1 /* NSCopyingObject.m */; };
 		22528079224BBC8D00750FB1 /* RunLoopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22528078224BBC8D00750FB1 /* RunLoopViewController.m */; };
+		2252807D224C615C00750FB1 /* CopyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2252807C224C615C00750FB1 /* CopyViewController.m */; };
+		22528080224C634300750FB1 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2252807F224C634300750FB1 /* BaseViewController.m */; };
+		22731F5E2250BD04006A28E9 /* CoreTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22731F5D2250BD04006A28E9 /* CoreTextViewController.m */; };
+		22731F612250BD3F006A28E9 /* CTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22731F602250BD3F006A28E9 /* CTView.m */; };
+		22F4DF9C2250CF9000EDF2EC /* CTLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F4DF9B2250CF8F00EDF2EC /* CTLineView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		222F410B2252FFF300B38253 /* JavaScriptCoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JavaScriptCoreViewController.h; sourceTree = "<group>"; };
+		222F410C2252FFF300B38253 /* JavaScriptCoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JavaScriptCoreViewController.m; sourceTree = "<group>"; };
+		222F410E225303FF00B38253 /* html.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = html.html; sourceTree = "<group>"; };
+		222F41102253057300B38253 /* MyJSObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyJSObject.h; sourceTree = "<group>"; };
+		222F41112253057300B38253 /* MyJSObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyJSObject.m; sourceTree = "<group>"; };
 		2252801E2248640000750FB1 /* Objective_C_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Objective_C_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		225280212248640000750FB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		225280222248640000750FB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -32,6 +45,16 @@
 		22528039224864E700750FB1 /* NSCopyingObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSCopyingObject.m; sourceTree = "<group>"; };
 		22528077224BBC8D00750FB1 /* RunLoopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLoopViewController.h; sourceTree = "<group>"; };
 		22528078224BBC8D00750FB1 /* RunLoopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLoopViewController.m; sourceTree = "<group>"; };
+		2252807B224C615C00750FB1 /* CopyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CopyViewController.h; sourceTree = "<group>"; };
+		2252807C224C615C00750FB1 /* CopyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CopyViewController.m; sourceTree = "<group>"; };
+		2252807E224C634300750FB1 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		2252807F224C634300750FB1 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		22731F5C2250BD04006A28E9 /* CoreTextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreTextViewController.h; sourceTree = "<group>"; };
+		22731F5D2250BD04006A28E9 /* CoreTextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreTextViewController.m; sourceTree = "<group>"; };
+		22731F5F2250BD3F006A28E9 /* CTView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTView.h; sourceTree = "<group>"; };
+		22731F602250BD3F006A28E9 /* CTView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTView.m; sourceTree = "<group>"; };
+		22F4DF9A2250CF8F00EDF2EC /* CTLineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTLineView.h; sourceTree = "<group>"; };
+		22F4DF9B2250CF8F00EDF2EC /* CTLineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTLineView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +68,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		222F410A2252FFC300B38253 /* JavaScriptCore */ = {
+			isa = PBXGroup;
+			children = (
+				222F410B2252FFF300B38253 /* JavaScriptCoreViewController.h */,
+				222F410C2252FFF300B38253 /* JavaScriptCoreViewController.m */,
+				222F410E225303FF00B38253 /* html.html */,
+				222F41102253057300B38253 /* MyJSObject.h */,
+				222F41112253057300B38253 /* MyJSObject.m */,
+			);
+			path = JavaScriptCore;
+			sourceTree = "<group>";
+		};
 		225280152248640000750FB1 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +103,11 @@
 				225280222248640000750FB1 /* AppDelegate.m */,
 				225280242248640000750FB1 /* ViewController.h */,
 				225280252248640000750FB1 /* ViewController.m */,
+				2252807E224C634300750FB1 /* BaseViewController.h */,
+				2252807F224C634300750FB1 /* BaseViewController.m */,
+				222F410A2252FFC300B38253 /* JavaScriptCore */,
+				22731F5B2250BCE9006A28E9 /* CoreText */,
+				2252807A224C614700750FB1 /* copy */,
 				22528076224BBC3400750FB1 /* RunLoop */,
 				22528037224864C900750FB1 /* NSCopying */,
 				225280272248640000750FB1 /* Main.storyboard */,
@@ -95,6 +135,28 @@
 				22528078224BBC8D00750FB1 /* RunLoopViewController.m */,
 			);
 			path = RunLoop;
+			sourceTree = "<group>";
+		};
+		2252807A224C614700750FB1 /* copy */ = {
+			isa = PBXGroup;
+			children = (
+				2252807B224C615C00750FB1 /* CopyViewController.h */,
+				2252807C224C615C00750FB1 /* CopyViewController.m */,
+			);
+			path = copy;
+			sourceTree = "<group>";
+		};
+		22731F5B2250BCE9006A28E9 /* CoreText */ = {
+			isa = PBXGroup;
+			children = (
+				22731F5C2250BD04006A28E9 /* CoreTextViewController.h */,
+				22731F5D2250BD04006A28E9 /* CoreTextViewController.m */,
+				22731F5F2250BD3F006A28E9 /* CTView.h */,
+				22731F602250BD3F006A28E9 /* CTView.m */,
+				22F4DF9A2250CF8F00EDF2EC /* CTLineView.h */,
+				22F4DF9B2250CF8F00EDF2EC /* CTLineView.m */,
+			);
+			path = CoreText;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2252802E2248640200750FB1 /* LaunchScreen.storyboard in Resources */,
+				222F410F225303FF00B38253 /* html.html in Resources */,
 				2252802B2248640200750FB1 /* Assets.xcassets in Resources */,
 				225280292248640000750FB1 /* Main.storyboard in Resources */,
 			);
@@ -167,11 +230,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22731F5E2250BD04006A28E9 /* CoreTextViewController.m in Sources */,
 				225280262248640000750FB1 /* ViewController.m in Sources */,
+				22731F612250BD3F006A28E9 /* CTView.m in Sources */,
 				22528079224BBC8D00750FB1 /* RunLoopViewController.m in Sources */,
 				2252803A224864E800750FB1 /* NSCopyingObject.m in Sources */,
+				2252807D224C615C00750FB1 /* CopyViewController.m in Sources */,
 				225280312248640200750FB1 /* main.m in Sources */,
+				22528080224C634300750FB1 /* BaseViewController.m in Sources */,
+				222F410D2252FFF300B38253 /* JavaScriptCoreViewController.m in Sources */,
+				222F41122253057300B38253 /* MyJSObject.m in Sources */,
 				225280232248640000750FB1 /* AppDelegate.m in Sources */,
+				22F4DF9C2250CF9000EDF2EC /* CTLineView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
